@@ -1,0 +1,4 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'app.css' %}">
+<!-- or if the file is inside the app's folder: {% static 'tasks/app.css' %} -->
